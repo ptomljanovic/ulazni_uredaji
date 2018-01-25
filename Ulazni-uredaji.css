@@ -1,0 +1,173 @@
+@charset "utf-8";
+
+#naslov{
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Roboto Slab', serif;	
+	font-size: 60px;
+	color: #373f51;
+	background-color: #a9bcd0;
+	margin-bottom: 40px;
+}
+.ime{
+	text-align: right;
+}
+#topnav_1{
+	font-family: 'Roboto Slab', serif;	
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #147ba0;
+	text-align: center;
+}
+.topnav ul {
+    overflow: hidden;
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.topnav li{
+	float: left;
+	text-transform: uppercase;
+	list-style-type: none;
+	margin-left: 7%;
+	margin-right: 5%;
+	position: relative;*/
+	display: block;
+}
+.topnav a{
+	text-decoration: none;
+	color: #d8dbe2;
+	padding: 20px;
+	float: left;
+}
+.topnav a:hover{
+	background-color: #58a4b0;
+	color: #1b1b1e;
+}
+.topnav .active{
+	background-color: #373f51;
+}
+.sidenav .active {
+	background-color: #58a4b0;
+}
+.sidenav{
+	position: absolute;
+}
+.sidenav ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #d8dbe2;
+}
+.sidenav li a{
+	display: block;
+    color: #000;
+	padding: 16px;
+    text-decoration: none;
+	font-family: 'Roboto Slab', serif;	
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.sidenav a:hover{
+	background-color: #247ba0;
+	color: #d8dbe2;	
+}
+.sidenav li li{
+    list-style:none;
+    position:static;
+	background-color: #58a4b0;
+}
+.sidenav ul ul{
+	visibility: hidden;
+	position: absolute;
+	margin-left: 100%;
+	margin-top: -24%;
+	font-size: small;
+	display: block;
+}
+.sidenav ul li:hover ul{
+	visibility: visible;
+	display: block;
+	height: auto;
+	width: auto;
+}
+h3{
+	text-align: center;
+	text-indent: none;
+	text-transform: uppercase;
+}
+h4{
+	text-align: center;
+	text-indent: none;
+}
+.naslovni_tekst {
+	font-family: 'Roboto Slab', serif;	
+	background-color: #d8dbe2;
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: justify;	
+	padding: 1% 3%;
+	border:2px solid #1b1b1e;
+	text-decoration: none;
+	list-style-type: none;
+	font-size: large;	
+}
+p{
+	text-indent: 50px;
+}
+#logo{
+	margin-right: 20px;
+}
+.cont{
+    position: relative;
+    width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.slika{
+	width: 100%;
+	height:auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.slika1{
+	width: 50%;
+	height:auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.slika2{
+	width: 100%;
+	height:auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.opis{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.cont:hover .slika{
+    opacity: 0.3;
+}
+.cont:hover .opis{
+    opacity: 1;
+}
+.tekst{
+    background-color: #147ba0;
+    color: #d8dbe2;
+    font-family: 'Roboto Slab', serif;
+	text-transform: uppercase;
+	text-align: center;
+	opacity: 0.9;
+    font-size: 14px;
+    padding: 12px 18px;
+}	
+
